@@ -125,7 +125,7 @@ color: var(--third-color);
 /* 
 ### pc 
 */
-body > section {
+main > section {
     position: relative;
     display: block;
     width: 100%;
@@ -237,6 +237,14 @@ section > .section_title {
     text-align: left;
     font-size: var(--font-medium);
     color: var(--primary-color);
+}
+
+.section_02 .contents_grid .txt a {
+    display:inline-block;
+    width: 2.8rem;
+    height: 2.8rem;
+    background: url(/image/icon/maps-and-flags.png) no-repeat center;
+    background-size: contain;
 }
 
 .section_02 .contents_grid .txt strong {
@@ -386,8 +394,12 @@ section > .section_title {
     display: inline-flex;
     width: 4.8rem;
     height: 4.8rem;
-    color: var(--forth-color);
-    font-size: var(--font-small);
+    margin: 0 1rem;
+    background: url(/image/icon/right-arrow.png) no-repeat center;
+    background-size: contain;
+}
+.section_03 .swiper-button-wrapper .swiper-button-prev {
+    transform: rotate(180deg);
 }
 
 .section_03 .swiper-button-wrapper .swiper-navigation-icon {
@@ -480,6 +492,15 @@ section > .section_title {
 ## 반응형
 */
 
+@media (max-height: 1080px) {
+    .folder_img {
+        width: 50dvw;
+        max-width: 70rem;
+        height: 35dvw;
+        max-height: 48rem;
+    }
+}
+
 @media (max-width: 1480px) {
 
     :root {
@@ -498,7 +519,7 @@ section > .section_title {
         --page-title-mt: 8rem;
     }
 
-    body > section {
+    main > section {
         padding: 0 1.6rem;
     }
 
@@ -538,6 +559,17 @@ section > .section_title {
 }
 
 @media (max-width: 991px) {
+
+    .section_02 .contents_grid .txt a {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .section_03 .swiper-button-wrapper div[class^='swiper-button'] {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
     .section_02 .folder_img,
     .section_04 .folder_img {
         display: none;
@@ -566,18 +598,21 @@ section > .section_title {
         --page-title-mt: 5.4rem;
     }
 
-    body > section {
+    main > section {
         min-height: unset;
     }
 
     .folder_img {
         position: relative;
-        width: 70dvw;
-        height: 55dvw;
     }
 
     .folder_img .back, .folder_img .front {
         border-radius: 1.2rem 1.2rem 0 0;
+    }
+
+    .folder_img .front .txt {
+        padding-top: 2rem;
+        font-size: var(--font-exsmall)
     }
 
     .section_01 .folder_img {

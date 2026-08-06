@@ -4,19 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>박소현의 포트폴리오</title>
-    <style>
-        .loading_dimmed {
-            position: fixed;
-            inset: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: rgba(0, 0, 0, 1);
-            color: #fff;
-            font-size: 1rem;
-            z-index: 9999;
-        }
-    </style>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preload" href="//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2"as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff"as="font" type="font/woff" crossorigin />
@@ -24,230 +11,239 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-    <script src="https://kit.fontawesome.com/781b6a57ae.js" crossorigin="anonymous"></script>
-    
 </head>
 <body>
-    <section class="section_01">
-        <h1 class="title">
-            <strong class="name">박소현</strong>
-            <span>의</span>
-            <strong class="sub_txt">포트폴리오</strong>
-        </h1>
-        <p class="pop_txt pop_txt_01"><strong>4 years +</strong></p>
-        <p class="pop_txt pop_txt_02">
-            <strong>Contact me</strong><br/>
-            <a href="tel:010-3894-7543">010-3894-7543</a><br/>
-        </p>
-        <p class="pop_txt pop_txt_03">
-            <strong>HTML·CSS<br/>·JavaScript</strong>
-        </p>
-        <div class="folder_img">
-            <div class="back"></div>
-            <div class="inside"></div>
-            <div class="front">
-                <p class="txt">
-                    welcome<br/>to my portfolio!
-                </p>
+    <main>
+        <section class="section_01">
+            <h1 class="title">
+                <strong class="name">박소현</strong>
+                <span>의</span>
+                <strong class="sub_txt">포트폴리오</strong>
+            </h1>
+            <p class="pop_txt pop_txt_01"><strong>4 years +</strong></p>
+            <p class="pop_txt pop_txt_02">
+                <strong>Contact me</strong><br/>
+                <a href="tel:010-3894-7543">010-3894-7543</a><br/>
+            </p>
+            <p class="pop_txt pop_txt_03">
+                <strong>HTML·CSS<br/>·JavaScript</strong>
+            </p>
+            <div class="folder_img">
+                <div class="back"></div>
+                <div class="inside"></div>
+                <div class="front">
+                    <p class="txt">
+                        welcome<br/>to my portfolio!
+                    </p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="section_02">
-        <div class="section_title">About me</div>
-        <div class="contents_grid">
-            <div class="contents contents_01">
-                <p class="txt accent">박소현</p>
-                <p class="txt">1995·03·03</p>
-                <p class="txt">인천광역시 부평구<br/>부평동 10-554
-                <a href="https://kko.to/WbtsxC20Qr" target="_blank" alt="주소"><i class="fa-solid fa-location-dot"></i></a></p>
-            </div>
-            <div class="contents contents_02">
-                <p class="txt">서일대학교 멀티미디어디자인과 졸업</p>
-                <button type="button" class="txt copy"><strong>EMAIL</strong><span>33.sohyun.park@gmail.com</span></button>
-                <button type="button" class="txt copy"><strong>PHONE</strong><span>010-3894-7543</span></button>
-                <p class="skills">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Javascript</span>
-                    <span>Jquery</span>
-                    <span>Vue</span>
-                    <br/>
-                    <br/>
-                    <span>NuxtJs</span>
-                    <span>React</span>
-                    <span>Git</span>
-                    <span>Figma</span>
-                </p>
-            </div>
-            <div class="contents contents_03">
-                <p class="txt accent">경력</p>
-                <p class="txt">SBS 아카데미 웹 퍼블리싱 수료</p>
-                <p class="txt">웹디자인기능사</p>
-                <p class="txt">2021.07 ~ 2025.12 ㈜온라인파워스</p>
+        </section>
+        <section class="section_02">
+            <div class="section_title">About me</div>
+            <div class="contents_grid">
+                <div class="contents contents_01">
+                    <p class="txt accent">박소현</p>
+                    <p class="txt">1995·03·03</p>
+                    <p class="txt">인천광역시 부평구<br/>부평동 10-554
+                        <a href="https://kko.to/WbtsxC20Qr" target="_blank" title="카카오맵에서 보기">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </a>
+                    </p>
+                </div>
+                <div class="contents contents_02">
+                    <p class="txt">서일대학교 멀티미디어디자인과 졸업</p>
+                    <button type="button" class="txt copy" data-clipboard-text="33.sohyun.park@gmail.com" aria-label="이메일 복사">
+                        <strong>EMAIL</strong><span>33.sohyun.park@gmail.com</span>
+                    </button>
+                    <button type="button" class="txt copy" data-clipboard-text="010-3894-7543" aria-label="휴대폰 번호 복사">
+                        <strong>PHONE</strong><span>010-3894-7543</span>
+                    </button>
+                    <p class="skills">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Jquery</span>
+                        <span>Vue</span>
+                        <br/>
+                        <br/>
+                        <span>NuxtJs</span>
+                        <span>React</span>
+                        <span>Git</span>
+                        <span>Figma</span>
+                    </p>
+                </div>
+                <div class="contents contents_03">
+                    <p class="txt accent">경력</p>
+                    <p class="txt">SBS 아카데미 웹 퍼블리싱 수료</p>
+                    <p class="txt">웹디자인기능사</p>
+                    <p class="txt">2021.07 ~ 2025.12 ㈜온라인파워스</p>
 
+                </div>
             </div>
-        </div>
-        <div class="folder_img">
-            <div class="back"></div>
-            <div class="inside"></div>
-            <div class="inside photo"></div>
-            <div class="front"></div>
-        </div>
-    </section>
-    <section class="section_03">
-        <div class="section_title">Projects</div>
-        <div class="swiper section_03_swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <!-- 푸드레인몰 -->
-                <div class="swiper-slide">
-                    <div class="project_item">
-                        <a href="https://foodrain.com/" target="_blank" class="thumbnail">
-                            <img src="/image/icon/projects/foodrain.png" alt="프로젝트 푸드레인">
-                        </a>
-                        <div class="contents">
-                            <p class="project_tags">
-                                <span class="tag accent">Main</span>
-                                <span class="tag accent">FrontEnd</span>
-                                <span class="tag">Nuxt3</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">HTML</span>
-                            </p>
-                            <p class="project_desc">
-                                프로젝트 푸드레인은 Nuxt3를 기반으로 한 프로젝트 입니다. 메인 화면과 프로젝트의 메인 기능인 달력·배송지정일 등록 기능을 작업하였습니다. 라이브러리와 컴포넌트를 활용하여 작업 기간을 단축시켰습니다.
-                            </p>
+            <div class="folder_img">
+                <div class="back"></div>
+                <div class="inside"></div>
+                <div class="inside photo"></div>
+                <div class="front"></div>
+            </div>
+        </section>
+        <section class="section_03">
+            <div class="section_title">Projects</div>
+            <div class="swiper section_03_swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <!-- 푸드레인몰 -->
+                    <div class="swiper-slide">
+                        <div class="project_item">
+                            <a href="https://foodrain.com/" target="_blank" class="thumbnail">
+                                <img src="image/icon/projects/foodrain.png" alt="프로젝트 푸드레인" >
+                            </a>
+                            <div class="contents">
+                                <p class="project_tags">
+                                    <span class="tag accent">Main</span>
+                                    <span class="tag accent">FrontEnd</span>
+                                    <span class="tag">Nuxt3</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">HTML</span>
+                                </p>
+                                <p class="project_desc">
+                                    프로젝트 푸드레인은 Nuxt3를 기반으로 한 프로젝트 입니다. 메인 화면과 프로젝트의 메인 기능인 달력·배송지정일 등록 기능을 작업하였습니다. 라이브러리와 컴포넌트를 활용하여 작업 기간을 단축시켰습니다.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- 대상웰라이프 -->
-                <div class="swiper-slide">
-                    <div class="project_item">
-                        <a href="https://www.wellife.co.kr/" target="_blank" class="thumbnail">
-                            <img src="/image/icon/projects/logo_b2c.webp" alt="프로젝트 웰라이프 B2C">
-                        </a>
-                        <div class="contents">
-                            <p class="project_tags">
-                                <span class="tag accent">Main</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">HTML</span>
-                            </p>
-                            <p class="project_desc">
-                                프로젝트 대상웰라이프 B2C는 처음으로 메인을 맡아 작업하게 웹사이트입니다. 메인, 상세, 마이페이지, 주문서 페이지 등 다양한 페이지를 담당·유지보수를 진행하였습니다.
-                                <br>
-                                CSS 파일의 모듈화를 통해 대형 웹사이트의 CSS 경량화를 추구하였으며, 이벤트 페이지에 사용되는 자바스크립트를 라이브러리화 하여 작업시간을 단축시켰습니다.
-                            </p>
+                    <!-- 대상웰라이프 -->
+                    <div class="swiper-slide">
+                        <div class="project_item">
+                            <a href="https://www.wellife.co.kr/" target="_blank" class="thumbnail">
+                                <img src="image/icon/projects/logo_b2c.webp" alt="프로젝트 웰라이프 B2C">
+                            </a>
+                            <div class="contents">
+                                <p class="project_tags">
+                                    <span class="tag accent">Main</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">HTML</span>
+                                </p>
+                                <p class="project_desc">
+                                    프로젝트 대상웰라이프 B2C는 처음으로 메인을 맡아 작업하게 웹사이트입니다. 메인, 상세, 마이페이지, 주문서 페이지 등 다양한 페이지를 담당·유지보수를 진행하였습니다.
+                                    <br>
+                                    CSS 파일의 모듈화를 통해 대형 웹사이트의 CSS 경량화를 추구하였으며, 이벤트 페이지에 사용되는 자바스크립트를 라이브러리화 하여 작업시간을 단축시켰습니다.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- 라이블리 -->
-                <div class="swiper-slide">
-                    <div class="project_item">
-                        <a href="https://nhlyvly.biz/" target="_blank" class="thumbnail">
-                            <img src="/image/icon/projects/lyvly.png" alt="프로젝트 라이블리">
-                        </a>
-                        <div class="contents">
-                            <p class="project_tags">
-                                <span class="tag accent">검색필터</span>
-                                <span class="tag">Nuxt2</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">HTML</span>
-                            </p>
-                            <p class="project_desc">
-                                프로젝트 라이블리(도매몰)은 Nuxt2를 기반으로 한 프로젝트입니다. 상품 상세 검색의 상품 필터를 메인으로 작업하였으며, 도매몰 사용자 특성에 맞춰 다양한 디바이스의 화면에 맞춰 반응형을 제공하는데에 중점을 두었습니다.
-                            </p>
+                    <!-- 라이블리 -->
+                    <div class="swiper-slide">
+                        <div class="project_item">
+                            <a href="https://nhlyvly.biz/" target="_blank" class="thumbnail">
+                                <img src="image/icon/projects/lyvly.png" alt="프로젝트 라이블리">
+                            </a>
+                            <div class="contents">
+                                <p class="project_tags">
+                                    <span class="tag accent">검색필터</span>
+                                    <span class="tag">Nuxt2</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">HTML</span>
+                                </p>
+                                <p class="project_desc">
+                                    프로젝트 라이블리(도매몰)은 Nuxt2를 기반으로 한 프로젝트입니다. 상품 상세 검색의 상품 필터를 메인으로 작업하였으며, 도매몰 사용자 특성에 맞춰 다양한 디바이스의 화면에 맞춰 반응형을 제공하는데에 중점을 두었습니다.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- 씨앤티마트 -->
-                <div class="swiper-slide">
-                    <div class="project_item">
-                        <a href="https://www.cntmart.com/" target="_blank" class="thumbnail">
-                            <img src="/image/icon/projects/logo_b.7f062c0.svg" alt="프로젝트 씨앤티마트">
-                        </a>
-                        <div class="contents">
-                            <p class="project_tags">
-                                <span class="tag accent">상품상세</span>
-                                <span class="tag">Nuxt2</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">HTML</span>
-                            </p>
-                            <p class="project_desc">
-                                프로젝트 씨앤티마트는 처음으로 Nuxt2를 도입한 프로젝트입니다. Javascript 프레임 워크를 처음으로 사용하였으며 Vue의 러닝커브 특성상 빠르게 프로젝트에 도입하여 작업에 임할 수 있었습니다.
-                            </p>
+                    <!-- 씨앤티마트 -->
+                    <div class="swiper-slide">
+                        <div class="project_item">
+                            <a href="https://www.cntmart.com/" target="_blank" class="thumbnail">
+                                <img src="image/icon/projects/logo_b.7f062c0.svg" alt="프로젝트 씨앤티마트">
+                            </a>
+                            <div class="contents">
+                                <p class="project_tags">
+                                    <span class="tag accent">상품상세</span>
+                                    <span class="tag">Nuxt2</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">HTML</span>
+                                </p>
+                                <p class="project_desc">
+                                    프로젝트 씨앤티마트는 처음으로 Nuxt2를 도입한 프로젝트입니다. Javascript 프레임 워크를 처음으로 사용하였으며 Vue의 러닝커브 특성상 빠르게 프로젝트에 도입하여 작업에 임할 수 있었습니다.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- 대상웰라이프 B2B 몰 -->
-                <div class="swiper-slide">
-                    <div class="project_item">
-                        <a href="https://play.google.com/store/apps/details?id=kr.co.wellifeb2b.mall.user&hl=ko&pli=1" target="_blank" class="thumbnail">
-                            <img src="/image/icon/projects/logo_b2b.svg" alt="프로젝트 대상웰라이프 B2B 몰">
-                        </a>
-                        <div class="contents">
-                            <p class="project_tags">
-                                <span class="tag accent">Main</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">HTML</span>
-                            </p>
-                            <p class="project_desc">
-                                프로젝트 대상웰라이프 B2B는 B2C몰을 기반으로 경량화하여 비즈니스 고객을 대상으로 한 사이트입니다. 경량화에 중점을 뒀으며 유지보수를 위주로 작업하였습니다.
-                            </p>
+                    <!-- 대상웰라이프 B2B 몰 -->
+                    <div class="swiper-slide">
+                        <div class="project_item">
+                            <a href="https://play.google.com/store/apps/details?id=kr.co.wellifeb2b.mall.user&hl=ko&pli=1" target="_blank" class="thumbnail">
+                                <img src="image/icon/projects/logo_b2b.svg" alt="프로젝트 대상웰라이프 B2B 몰">
+                            </a>
+                            <div class="contents">
+                                <p class="project_tags">
+                                    <span class="tag accent">Main</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">HTML</span>
+                                </p>
+                                <p class="project_desc">
+                                    프로젝트 대상웰라이프 B2B는 B2C몰을 기반으로 경량화하여 비즈니스 고객을 대상으로 한 사이트입니다. 경량화에 중점을 뒀으며 유지보수를 위주로 작업하였습니다.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="swiper-button-wrapper">
-                <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left"></i></div>
-                <div class="swiper-button-next"><i class="fa-solid fa-arrow-right"></i></div>
-            </div>
-        </div>
-    </section>
-    <section class="section_04">
-        <div class="contents">
-            <div class="txt_contents">
-                <p class="txt_sub">Thanks for visiting my portfolio!</p>
-                <a href="mailto:33.sohyun.park@gmail.com" class="txt_main">33.sohyun.park@gmail.com</a>
-                <p class="txt_description">빠르게 변화하는 환경 속에서도 배우기를 멈추지 않고,<br class="pc"> 사용자와 사회를 함께 고려하는 개발자로 성장하고자 합니다.</p>
-            </div>
-            <div class="link_contents">
-                <a href="https://github.com/33park" target="_blank">Git</a>
-                <a href="https://velog.io/@33parksh/posts" target="_blank">Velog</a>
-                <a href="https://codepen.io/33park" target="_blank">Codepen</a>
-            </div>
-            <div class="folder_group">
-                <div class="folder_img folder_01">
-                    <div class="back"></div>
-                    <div class="front"></div>
                 </div>
-                <div class="folder_img folder_02">
-                    <div class="back"></div>
-                    <div class="front"></div>
-                </div>
-                <div class="folder_img folder_03">
-                    <div class="back"></div>
-                    <div class="front"></div>
+                <div class="swiper-button-wrapper">
+                    <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left"></i></div>
+                    <div class="swiper-button-next"><i class="fa-solid fa-arrow-right"></i></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="section_04">
+            <div class="contents">
+                <div class="txt_contents">
+                    <p class="txt_sub">Thanks for visiting my portfolio!</p>
+                    <a href="mailto:33.sohyun.park@gmail.com" class="txt_main">33.sohyun.park@gmail.com</a>
+                    <p class="txt_description">빠르게 변화하는 환경 속에서도 배우기를 멈추지 않고,<br class="pc"> 사용자와 사회를 함께 고려하는 개발자로 성장하고자 합니다.</p>
+                </div>
+                <div class="link_contents">
+                    <a href="https://github.com/33park" target="_blank">Git</a>
+                    <a href="https://velog.io/@33parksh/posts" target="_blank">Velog</a>
+                    <a href="https://codepen.io/33park" target="_blank">Codepen</a>
+                </div>
+                <div class="folder_group">
+                    <div class="folder_img folder_01">
+                        <div class="back"></div>
+                        <div class="front"></div>
+                    </div>
+                    <div class="folder_img folder_02">
+                        <div class="back"></div>
+                        <div class="front"></div>
+                    </div>
+                    <div class="folder_img folder_03">
+                        <div class="back"></div>
+                        <div class="front"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <p>
             project by <strong class="name">박소현</strong>
         </p>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="module">
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs'
 
         document.addEventListener('DOMContentLoaded', () => {
-            new Swiper('.section_03_swiper', {
+            // Swiper 초기화
+            const swiper = new Swiper('.section_03_swiper', {
                 // Default parameters
                 slidesPerView: 1,
                 spaceBetween: 12,
@@ -268,33 +264,35 @@
                 },
             });
 
-            const sections = Array.from(document.querySelectorAll('body > section'));
-            let sectionScrollTops = sections.map(section => section.offsetTop);
+            // ClipboardJS 초기화
+            const clipboard = new ClipboardJS('.copy');
 
-            const updateSectionScrollTops = () => {
-                sectionScrollTops = sections.map(section => section.offsetTop);
-            };
-
-            const checkScroll = () => {
-                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-                sections.forEach((section, index) => {
-                    if (scrollTop >= sectionScrollTops[index]) {
-                        section.classList.add('on');
-                    } else {
-                        section.classList.remove('on');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', checkScroll);
-            window.addEventListener('resize', () => {
-                updateSectionScrollTops();
-                checkScroll();
+            clipboard.on('success', function(e) {
+                alert('복사되었습니다.\n' + e.text);
+                e.clearSelection();
             });
 
-            // 초기 상태 반영
-            checkScroll();
+            clipboard.on('error', function(e) {
+                alert('복사에 실패했습니다.');
+            });
+
+            // Intersection Observer 초기화
+            const sections = document.querySelectorAll('main > section');
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry) => {
+                    if (!entry.isIntersecting) return;
+
+                    entry.target.classList.add('on');
+
+                    observer.unobserve(entry.target);
+                });
+            }, {
+                threshold: 0.3
+            });
+
+            sections.forEach(section => observer.observe(section));
+
         });
-    </script>
+</script>
 </html>
