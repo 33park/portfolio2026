@@ -311,7 +311,7 @@ section > .section_title {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('image/main_img.JPG');
+    background-image: url('image/photo/photo_01.jpg');
     background-size: cover;
     clip-path: inset(5% 5% 5% 5%);
 }
